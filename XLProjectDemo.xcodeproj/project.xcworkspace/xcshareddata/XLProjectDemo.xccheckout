@@ -12,12 +12,16 @@
 	<dict>
 		<key>08b5fa5c-c1aa-6142-bda4-9102350e4360++9739</key>
 		<string>https://svn.corp.shinsoft.net:6699/svn/MobileProjects/IOS/XLProjectDemo</string>
+		<key>C56C42BFFB80E626D4FC53922EAF283881152E32</key>
+		<string>https://github.com/linlizhi10/PublicFramework.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>XLProjectDemo.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>08b5fa5c-c1aa-6142-bda4-9102350e4360++9739</key>
+		<string>../../../XLProjectDemo</string>
+		<key>C56C42BFFB80E626D4FC53922EAF283881152E32</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectRepositoryRootDictionary</key>
@@ -26,13 +30,21 @@
 		<string>https://svn.corp.shinsoft.net:6699/svn/MobileProjects</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://svn.corp.shinsoft.net:6699/svn/MobileProjects/IOS/XLProjectDemo/XLProjectDemo.xcodeproj</string>
+	<string>https://github.com/linlizhi10/PublicFramework.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>08b5fa5c-c1aa-6142-bda4-9102350e4360++9739</string>
+	<string>C56C42BFFB80E626D4FC53922EAF283881152E32</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C56C42BFFB80E626D4FC53922EAF283881152E32</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PublicFramework</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.subversion</string>

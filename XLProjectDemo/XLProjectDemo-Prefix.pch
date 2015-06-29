@@ -1,0 +1,64 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+    #import "UIView+KGViewExtend.h"
+    #import "QHViewTag.h"
+    #import "QHCommonUtil.h"
+
+
+    #import "SVProgressHUD.h"
+
+
+    #import "UIImageView+Ex.h"//使用此categary代替下面的类别
+//    #import "UIImageView+WebCache.h"
+
+
+    #import "UtilsDefine.h"
+    #import "Constants.h"
+    #import "ImageNameMappding.h"
+    #import "FieldMapping.h"
+    #import "RequestDefine.h"
+    #import "ColorMapping.h"
+    #import "SystemDefine.h"
+
+    #import "BaseRequest.h"
+    #import "UserModel.h"
+
+    #import "AFNetworking.h"
+    #import "AFHTTPRequestOperationManagerSub.h"
+
+    #import "BaseViewController.h"
+
+#endif
+
+
+
+
+
+
+
+
+#define DEBUG_Mode
+
+#ifdef DEBUG_Mode
+#   define ILog(fmt, ...) {NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);}
+#   define DLog(...) NSLog(__VA_ARGS__)
+#   define ELog(err) if(err) ILog(@"%@", err)}
+#else
+#   define ILog(...)
+#   define DLog(...)
+#   define ELog(err)
+#endif

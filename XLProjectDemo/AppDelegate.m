@@ -17,7 +17,28 @@
 
 @implementation AppDelegate
 
+/**
+ *  微信接入
+ */
+static NSString *WXAppID     = @"";
+static NSString *WXSecret    = @"";
+/**
+ *  腾讯接入
+ */
+static NSString *TecentID    = @"";
+static NSString *TecentKey   = @"";
+/**
+ *  推送接入
+ */
+static NSString *PushID      = @"";
+static NSString *PushKey     = @"";
+static NSString *PushSecret  = @"";
 
+/**
+ *  百度地图接入
+ */
+
+static NSString *BaiDuMapKey = @"";
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.

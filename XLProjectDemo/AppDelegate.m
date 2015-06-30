@@ -10,6 +10,7 @@
 
 #import "MLBlackTransition.h"
 #import "ViewController.h"
+#import "CountDown.h"
 
 @interface AppDelegate ()
 
@@ -37,11 +38,12 @@ static NSString *PushSecret  = @"";
 /**
  *  百度地图接入
  */
-
 static NSString *BaiDuMapKey = @"";
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [CountDown countDownWithInialTime:50];
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.

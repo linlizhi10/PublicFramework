@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		257BE8391B423CDF00E59A78 /* CountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 257BE8381B423CDF00E59A78 /* CountDown.m */; };
+		257BE8421B42487A00E59A78 /* NSString+TimeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 257BE8411B42487A00E59A78 /* NSString+TimeKit.m */; };
 		B03EB0651B3113C0008241C0 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B03EB0641B3113C0008241C0 /* libsqlite3.dylib */; };
 		B03EB06A1B311B9F008241C0 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B03EB0691B311B9F008241C0 /* libz.dylib */; };
 		B03EB0751B311CC3008241C0 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B03EB06F1B311C41008241C0 /* CoreTelephony.framework */; };
@@ -286,6 +288,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		257BE8371B423CDF00E59A78 /* CountDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CountDown.h; path = Tools/CountDown.h; sourceTree = "<group>"; };
+		257BE8381B423CDF00E59A78 /* CountDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CountDown.m; path = Tools/CountDown.m; sourceTree = "<group>"; };
+		257BE8401B42487A00E59A78 /* NSString+TimeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+TimeKit.h"; path = "Tools/NSString+TimeKit.h"; sourceTree = "<group>"; };
+		257BE8411B42487A00E59A78 /* NSString+TimeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+TimeKit.m"; path = "Tools/NSString+TimeKit.m"; sourceTree = "<group>"; };
 		B03EB0641B3113C0008241C0 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		B03EB0691B311B9F008241C0 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		B03EB06F1B311C41008241C0 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
@@ -812,6 +818,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		257BE8361B423CA300E59A78 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				257BE8371B423CDF00E59A78 /* CountDown.h */,
+				257BE8381B423CDF00E59A78 /* CountDown.m */,
+				257BE8401B42487A00E59A78 /* NSString+TimeKit.h */,
+				257BE8411B42487A00E59A78 /* NSString+TimeKit.m */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
 		B03EB0661B3113D4008241C0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1140,6 +1157,7 @@
 		B0C425D51B305AAA00986370 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				257BE8361B423CA300E59A78 /* Tools */,
 				B0C425D61B305AAA00986370 /* Constant */,
 				B0C425DC1B305AAA00986370 /* Data */,
 				B0C425E01B305AAA00986370 /* Model */,
@@ -2427,6 +2445,7 @@
 				B0C42A3E1B305AAB00986370 /* PSTGridLayoutItem.m in Sources */,
 				B0C42A251B305AAB00986370 /* MLAudioRecorder.m in Sources */,
 				B0C42A6A1B305AAB00986370 /* UIScrollView+TwitterCover.m in Sources */,
+				257BE8391B423CDF00E59A78 /* CountDown.m in Sources */,
 				B09F93051B32C8CF009BCB21 /* MJRefreshNormalHeader.m in Sources */,
 				B09F93021B32C8CF009BCB21 /* MJRefreshBackNormalFooter.m in Sources */,
 				B0C4298F1B305AAB00986370 /* Emoji.m in Sources */,
@@ -2447,6 +2466,7 @@
 				B0C42A701B305AAB00986370 /* UzysGroupPickerView.m in Sources */,
 				B09F93081B32C8CF009BCB21 /* MJRefreshConst.m in Sources */,
 				B09F930B1B32C8CF009BCB21 /* UIView+MJExtension.m in Sources */,
+				257BE8421B42487A00E59A78 /* NSString+TimeKit.m in Sources */,
 				B0947C071B3168E4005EF187 /* SDWebImageDownloader.m in Sources */,
 				B0C42A3F1B305AAB00986370 /* PSTGridLayoutRow.m in Sources */,
 				B0C42A2F1B305AAB00986370 /* MWTapDetectingView.m in Sources */,
